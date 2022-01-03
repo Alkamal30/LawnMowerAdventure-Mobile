@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# IDE0063: Использовать простой оператор using
+dotnet_diagnostic.IDE0063.severity = none

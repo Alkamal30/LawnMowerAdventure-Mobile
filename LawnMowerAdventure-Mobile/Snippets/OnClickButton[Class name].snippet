@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>On Click Button This Name Class</Title>
+            <Author>Rimuru Tempest</Author>
+            <Description>Creates a OnClickButton[Class name]() => IJunior.TypedScenes.[Class name].Load(); statement</Description>
+            <Shortcut>on</Shortcut>
+        </Header>
+        <Snippet>
+            <Code Language="CSharp">
+                <![CDATA[public void OnClickButton$ValueType$() => IJunior.TypedScenes.$ValueType$.Load();]]>
+            </Code>
+            <Declarations>
+                <Literal>
+                    <ID>ValueType</ID>
+                    <Default>this</Default>
+                    <ToolTip>The name of the class generated when the scene was created.</ToolTip>
+                </Literal>
+            </Declarations>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>
