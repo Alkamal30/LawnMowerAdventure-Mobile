@@ -2,7 +2,7 @@ using System;
 using System.IO;
 using UnityEditor;
 using UnityEngine;
-
+//©
 public sealed class GameTools : Editor
 {
     [MenuItem("GameTools/Clear all PlayerPrefs database")]
