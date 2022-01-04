@@ -67,6 +67,9 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 /[Gg]ameTools/*
+/Lawn Mower Adventure-Mobile/LawnMowerAdventure-Mobile/GameTools
+/LawnMowerAdventure-Mobile/GameTools/*/*.png*
+
 #Lockfile
 /Temp/UnityLockfile
 /[Tt]emp/UnityLockfile
