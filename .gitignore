@@ -75,3 +75,4 @@ crashlytics-build.properties
 /[Tt]emp/UnityLockfile
 /Lawn Mower Adventure-Mobile/Temp/UnityLockfile
 *.log
+LawnMowerAdventure-Mobile/Logs/ApiUpdaterCheck.txt
