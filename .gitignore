@@ -74,3 +74,4 @@ crashlytics-build.properties
 /Temp/UnityLockfile
 /[Tt]emp/UnityLockfile
 /Lawn Mower Adventure-Mobile/Temp/UnityLockfile
+*.log
