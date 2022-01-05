@@ -33,9 +33,9 @@ namespace AbyssMothGames.LawnMowerWorld
         [Range(0f, 20f)]
         public float coinSpawnRate;
 
-        [Space]
-        [Header("Runtime")]
-        public int grassCount = default;
+        //[Space]
+        //[Header("Runtime")]
+        //public int grassCount = default;
 
         [Space]
         [Header("For Star System")]
