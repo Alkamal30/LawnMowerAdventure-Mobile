@@ -6,6 +6,7 @@ namespace AbyssMothGames.LawnMowerWorld
 {
     internal sealed class EcsForGameLevels : MonoBehaviour
     {
+        public SceneConfigurationData sceneConfigurationData;
         public SceneConfiguration sceneConfiguration;
         public SceneUIConfiguretion uIConfiguretion;
         public DoTweenUIController doTweenUIController;
@@ -15,6 +16,9 @@ namespace AbyssMothGames.LawnMowerWorld
 
         private void Awake()
         {
+            if (sceneConfigurationData == null)
+                sceneConfigurationData = FindObjectOfType<SceneConfigurationData>();
+
             if (sceneConfiguration == null)
                 sceneConfiguration = FindObjectOfType<SceneConfiguration>();
 
@@ -93,6 +97,7 @@ namespace AbyssMothGames.LawnMowerWorld
         private void AddInjections()
         {
             _systems
+                .Inject(sceneConfigurationData)
                 .Inject(sceneConfiguration)
                 .Inject(uIConfiguretion)
                 ;
