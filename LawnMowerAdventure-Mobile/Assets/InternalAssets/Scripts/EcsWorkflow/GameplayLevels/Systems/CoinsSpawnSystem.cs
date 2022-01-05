@@ -33,8 +33,6 @@ namespace AbyssMothGames.LawnMowerWorld
                     ref var coin = ref _coinFilter.Get1(index2);
                     // Spawn Coin Code
                     {
-                        Debug.Log($"Spawn_{i++}");
-
                         var coinInstance = Object.Instantiate(coin.Coin, coinSpawnEvent.SpawnPoint, Quaternion.identity);
                         coinInstance.GetComponent<Rigidbody>().AddForce(Vector3.up * sceneConfiguration.coinAddForce); // * Time.deltaTime
                     }

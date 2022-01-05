@@ -19,8 +19,6 @@ namespace AbyssMothGames.LawnMowerWorld
             if (!other.CompareTag(Helper.Tag.Player)) return;
 
             sceneConfiguration.isCompletionOfTheLevel = true;
-
-            Debug.Log(sceneConfiguration.isCompletionOfTheLevel);
         }
     }
 }

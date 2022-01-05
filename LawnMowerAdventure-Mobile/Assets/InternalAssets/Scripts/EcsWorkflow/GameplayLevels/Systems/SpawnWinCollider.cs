@@ -30,12 +30,8 @@ namespace AbyssMothGames.LawnMowerWorld
                 if (currentGrassAmount.InitialGrassAmount == (initialGrassAmount / 2) || currentGrassAmount.InitialGrassAmount == (initialGrassAmount / 2) + Random.Range(1, 10))
                 {
                     sceneConfig.winCollider.enabled = true;
-
-                    UnityEngine.Debug.Log("Is active collider!");
                 }
             }
         }
-
-
     }
 }
