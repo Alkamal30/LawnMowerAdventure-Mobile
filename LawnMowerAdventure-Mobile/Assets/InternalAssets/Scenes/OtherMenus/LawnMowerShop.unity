@@ -4441,7 +4441,6 @@ GameObject:
   - component: {fileID: 729037283}
   - component: {fileID: 729037282}
   - component: {fileID: 729037281}
-  - component: {fileID: 729037284}
   m_Layer: 0
   m_Name: Button_v3
   m_TagString: Untagged
@@ -4563,20 +4562,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 729037279}
   m_CullTransparentMesh: 1
---- !u!114 &729037284
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 729037279}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6341a40fe64e1e4a83bf8d7db769e51, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameId: LawnMower_3
-  priceId: 800
 --- !u!1 &732103584
 GameObject:
   m_ObjectHideFlags: 0
@@ -9511,7 +9496,6 @@ GameObject:
   - component: {fileID: 1434002422}
   - component: {fileID: 1434002421}
   - component: {fileID: 1434002420}
-  - component: {fileID: 1434002423}
   m_Layer: 0
   m_Name: Button_v1
   m_TagString: Untagged
@@ -9633,20 +9617,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1434002418}
   m_CullTransparentMesh: 1
---- !u!114 &1434002423
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1434002418}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6341a40fe64e1e4a83bf8d7db769e51, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameId: LawnMower_1
-  priceId: 300
 --- !u!1001 &1450910932
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12133,7 +12103,6 @@ GameObject:
   - component: {fileID: 1829498748}
   - component: {fileID: 1829498747}
   - component: {fileID: 1829498746}
-  - component: {fileID: 1829498749}
   m_Layer: 0
   m_Name: Button_v2
   m_TagString: Untagged
@@ -12255,20 +12224,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1829498744}
   m_CullTransparentMesh: 1
---- !u!114 &1829498749
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1829498744}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6341a40fe64e1e4a83bf8d7db769e51, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameId: LawnMower_2
-  priceId: 499
 --- !u!1001 &1835216445
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14086,7 +14041,6 @@ GameObject:
   - component: {fileID: 2072575183}
   - component: {fileID: 2072575182}
   - component: {fileID: 2072575181}
-  - component: {fileID: 2072575184}
   m_Layer: 0
   m_Name: Button_v0
   m_TagString: Untagged
@@ -14209,20 +14163,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2072575179}
   m_CullTransparentMesh: 1
---- !u!114 &2072575184
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2072575179}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6341a40fe64e1e4a83bf8d7db769e51, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameId: LawnMower_0
-  priceId: 0
 --- !u!1 &2077315955
 GameObject:
   m_ObjectHideFlags: 0

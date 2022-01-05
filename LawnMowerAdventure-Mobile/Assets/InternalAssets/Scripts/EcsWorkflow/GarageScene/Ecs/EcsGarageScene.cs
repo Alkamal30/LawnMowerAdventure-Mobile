@@ -47,7 +47,7 @@ namespace AbyssMothGames.LawnMowerWorld
 
         private void AddSystems()
         {
-
+            _systems.Add(new OrientationSetterSystem());
         }
 
         private void AddInjections()
