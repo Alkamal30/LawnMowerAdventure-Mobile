@@ -4,6 +4,7 @@ namespace AbyssMothGames.LawnMowerWorld
 {
     public sealed class Death : MonoBehaviour
     {
+        private SceneConfigurationData sceneConfig;
         private DoTweenUIController doTweenUIController;
 
         private void Awake()
@@ -15,9 +16,14 @@ namespace AbyssMothGames.LawnMowerWorld
         {
             if (collision.gameObject.CompareTag(Helper.Tag.Player))
             {
+                var player = GameObject.FindGameObjectWithTag(Helper.Tag.Player);
+
                 doTweenUIController.OpenLoserPopupPanels();
 
-                Destroy(GameObject.FindGameObjectWithTag(Helper.Tag.Player));
+                // sceneConfig.winSettings[0].isCompletionOfTheLevel = false;
+                // sceneConfig.winSettings[0].winCollider.enabled = false;
+
+                Destroy(player);
                 //IJunior.TypedScenes.DeathScene.Load();
             }
         }

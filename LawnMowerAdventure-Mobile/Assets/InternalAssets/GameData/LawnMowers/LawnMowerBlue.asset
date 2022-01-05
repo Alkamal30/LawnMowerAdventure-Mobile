@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: c92a097254562b4478f4cd363fd3dfef, type: 3}
   m_Name: LawnMowerBlue
   m_EditorClassIdentifier: Assembly-CSharp:AbyssMothGames.LawnMowerWorld:LawnMower
   name: Lawn Mower Blue
   prefab: {fileID: 4300482143695748891, guid: 823f06bb2283b8d4ca6a3d204e521736, type: 3}
-  speed: 3.5
+  speed: 4
   price: 499

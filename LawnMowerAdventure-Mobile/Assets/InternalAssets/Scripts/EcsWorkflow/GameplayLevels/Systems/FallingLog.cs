@@ -2,8 +2,8 @@
 using UnityEngine;
 
 /*
- TODO: Review -> SceneConfiguration
- Не, ну это пзц... Надо будет создать контейнеры для хранения полей в классе SceneConfiguration
+ TODO: Review -> SceneConfigurationData
+ Не, ну это пзц... Надо будет создать контейнеры для хранения полей в классе SceneConfigurationData
  Ну или хотя бы заняться ревью полей и именований, так как это уже говнокод.
  */
 
@@ -15,7 +15,7 @@ namespace AbyssMothGames.LawnMowerWorld
         private readonly EcsFilter<FallingLogComponent> fallingLogFilter = null;
 
         private readonly SceneUIConfiguretion uiConfiguration;
-        private readonly SceneConfiguration sceneConfiguration;
+        private readonly SceneConfigurationData sceneConfiguration;
 
         private bool isFallingLogstate = default;
 
@@ -23,14 +23,14 @@ namespace AbyssMothGames.LawnMowerWorld
         {
             var fallingLogEntity = _world.NewEntity();
 
-            isFallingLogstate = sceneConfiguration.isLiftingIndent;
+            isFallingLogstate = sceneConfiguration.woodLogTrapSettings[0].isLiftingIndent;
 
             ref var fallingLogComponent = ref fallingLogEntity.Get<FallingLogComponent>();
 
             {
-                fallingLogComponent.FallingLogGO = sceneConfiguration.fallingLogPrefab;
-                fallingLogComponent.StartPositionY = sceneConfiguration.startPositionY;
-                fallingLogComponent.LiftingIndent = sceneConfiguration.liftingIndent;
+                fallingLogComponent.FallingLogGO =   sceneConfiguration.woodLogTrapSettings[0].fallingLogPrefab;
+                fallingLogComponent.StartPositionY = sceneConfiguration.woodLogTrapSettings[0].startPositionY;
+                fallingLogComponent.LiftingIndent =  sceneConfiguration.woodLogTrapSettings[0].liftingIndent;
             }
 
             // TODO: Cleare all listeners.

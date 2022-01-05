@@ -18930,7 +18930,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneConfigurationData: {fileID: 512979384}
-  sceneConfiguration: {fileID: 512979382}
   uIConfiguretion: {fileID: 512979381}
   doTweenUIController: {fileID: 512979380}
 --- !u!1001 &2124620365
@@ -19620,7 +19619,7 @@ PrefabInstance:
     - target: {fileID: 467283871121788302, guid: 7cf324672f1da1949b21dc7741b97e74,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1012476947559033938, guid: 7cf324672f1da1949b21dc7741b97e74,
         type: 3}
@@ -20136,6 +20135,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3899346665255564500, guid: 7cf324672f1da1949b21dc7741b97e74,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3899346665255564500, guid: 7cf324672f1da1949b21dc7741b97e74,
         type: 3}

@@ -8,7 +8,7 @@ namespace AbyssMothGames.LawnMowerWorld
         private readonly EcsWorld _worlad = null;
         private readonly EcsFilter<CharacterComponent> characterFilter = null;
 
-        private readonly SceneConfiguration sceneConfiguration;
+        private readonly SceneConfigurationData sceneConfig;
         private EcsEntity cameraEntity;
 
         public void Init()
@@ -18,9 +18,9 @@ namespace AbyssMothGames.LawnMowerWorld
             ref var cameraComponent = ref cameraEntity.Get<CharacterTrackingCameraComponent>();
 
             cameraComponent.cameraTransform = Camera.main.transform;
-            cameraComponent.cameraSmoothness = sceneConfiguration.cameraSmoothness;
+            cameraComponent.cameraSmoothness = sceneConfig.cameraConfig[0].cameraSmoothness;
             cameraComponent.currentVelocity = Vector3.zero;
-            cameraComponent.offset = sceneConfiguration.offset;
+            cameraComponent.offset = sceneConfig.cameraConfig[0].offset;
 
             this.cameraEntity = cameraEntity;
         }

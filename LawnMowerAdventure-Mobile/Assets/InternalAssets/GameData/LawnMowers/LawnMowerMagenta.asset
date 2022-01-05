@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: c92a097254562b4478f4cd363fd3dfef, type: 3}
   m_Name: LawnMowerMagenta
   m_EditorClassIdentifier: Assembly-CSharp:AbyssMothGames.LawnMowerWorld:LawnMower
   name: Lawn Mower Magenta
   prefab: {fileID: 2108594406385386596, guid: 4e5881349650c4a43b3c9372d3baaa2f, type: 3}
-  speed: 4
+  speed: 4.2
   price: 800

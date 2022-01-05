@@ -8,7 +8,7 @@ namespace AbyssMothGames.LawnMowerWorld
         private readonly EcsWorld _world = null;
         private readonly EcsFilter<CoinSpawnEvent> _coinSpawnEventfilter = null;
         private readonly EcsFilter<CoinComponent> _coinFilter = null;
-        private readonly SceneConfiguration sceneConfiguration;
+        private readonly SceneConfigurationData sceneConfiguration;
 
         public void Init()
         {
@@ -16,7 +16,7 @@ namespace AbyssMothGames.LawnMowerWorld
 
             ref var coin = ref coinEcs.Get<CoinComponent>().Coin;
 
-            coin = sceneConfiguration.Coin;
+            coin = sceneConfiguration.currency[0].Coin;
         }
 
         public void Run()
@@ -32,7 +32,7 @@ namespace AbyssMothGames.LawnMowerWorld
                     // Spawn Coin Code
                     {
                         var coinInstance = Object.Instantiate(coin.Coin, coinSpawnEvent.SpawnPoint, Quaternion.identity);
-                        coinInstance.GetComponent<Rigidbody>().AddForce(Vector3.up * sceneConfiguration.coinAddForce); // * Time.deltaTime
+                        coinInstance.GetComponent<Rigidbody>().AddForce(Vector3.up * sceneConfiguration.currency[0].coinAddForce); // * Time.deltaTime
                     }
                 }
 

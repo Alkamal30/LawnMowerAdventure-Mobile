@@ -7,19 +7,18 @@ namespace AbyssMothGames.LawnMowerWorld
     {
         private readonly EcsWorld _world = null;
 
-        private readonly SceneConfiguration sceneConfiguration;
+        private readonly SceneConfigurationData sceneConfig;
 
         public void Init()
         {
             var characterEntity = _world.NewEntity();
 
-            var playerGO = Object.Instantiate(sceneConfiguration.characterPrefab, sceneConfiguration.spawnPoint.position, Quaternion.identity);
-           // var playerGO = Object.Instantiate(sceneConfiguration.characterContainer.lawmMowers., sceneConfiguration.spawnPoint.position, Quaternion.identity);
+            var playerGO = Object.Instantiate(sceneConfig.currentLawnMower[0].prefab, sceneConfig.characterSpawnPoints[0].spawnPoint.position, Quaternion.identity);
 
             ref var character = ref characterEntity.Get<CharacterComponent>();
 
             character.characterGO = playerGO;
-            character.characterSpeed = sceneConfiguration.characterSpeed;
+            character.characterSpeed = sceneConfig.currentLawnMower[0].speed;
         }
     }
 }

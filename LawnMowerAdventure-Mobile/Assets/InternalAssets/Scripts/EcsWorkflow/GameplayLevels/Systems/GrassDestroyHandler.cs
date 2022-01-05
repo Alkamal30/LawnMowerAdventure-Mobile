@@ -8,7 +8,7 @@ namespace AbyssMothGames.LawnMowerWorld
         private readonly EcsWorld _world = null;
         private readonly EcsFilter<CharacterComponent> _characterFilter = null;
         private readonly EcsFilter<InitialGrassAmountComponent> _grassAmountFilter = null;
-        private readonly SceneConfiguration _sceneConfiguration;
+        private readonly SceneConfigurationData _sceneConfiguration;
 
         private int _spawnedCoinsAmount;
 
@@ -49,11 +49,11 @@ namespace AbyssMothGames.LawnMowerWorld
             float grassCutPercentage = (float)(grassAmountComponent.InitialGrassAmount - grassAmountComponent.CurrentGrassAmount) /
                                                grassAmountComponent.InitialGrassAmount * 100f;
 
-            if (grassCutPercentage < _sceneConfiguration.lowerBoundOfCoinSpawn) return;
+            if (grassCutPercentage < _sceneConfiguration.coinSpawnSettings[0].lowerBoundOfCoinSpawn) return;
 
-            grassCutPercentage -= _sceneConfiguration.lowerBoundOfCoinSpawn;
+            grassCutPercentage -= _sceneConfiguration.coinSpawnSettings[0].lowerBoundOfCoinSpawn;
 
-            int coinAmount = (int)(grassCutPercentage / _sceneConfiguration.coinSpawnRate);
+            int coinAmount = (int)(grassCutPercentage / _sceneConfiguration.coinSpawnSettings[0].coinSpawnRate);
             coinAmount -= _spawnedCoinsAmount;
 
             for (int i = 0; i < coinAmount; i++)

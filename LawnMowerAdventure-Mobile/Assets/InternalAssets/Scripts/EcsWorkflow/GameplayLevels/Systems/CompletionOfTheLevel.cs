@@ -7,7 +7,7 @@ namespace AbyssMothGames.LawnMowerWorld
         private readonly EcsFilter<InitialGrassAmountComponent> currentProgressFilter = null;
         private readonly EcsFilter<CharacterComponent> characterFilter = null;
 
-        private readonly SceneConfiguration sceneConfig;
+        private readonly SceneConfigurationData sceneConfig;
         private readonly DoTweenUIController doTweenUIController;
 
         public void Init()
@@ -20,7 +20,7 @@ namespace AbyssMothGames.LawnMowerWorld
 
         public void Run()
         {
-            if (sceneConfig.isCompletionOfTheLevel)
+            if (sceneConfig.winSettings[0].isCompletionOfTheLevel)
             {
 
                 foreach (var i in characterFilter)
@@ -28,6 +28,9 @@ namespace AbyssMothGames.LawnMowerWorld
                     ref var character = ref characterFilter.Get1(i);
 
                     character.characterSpeed = 0;
+
+                    sceneConfig.winSettings[0].isCompletionOfTheLevel = false;
+                    sceneConfig.winSettings[0].winCollider.enabled = false;
 
                     doTweenUIController.OpenWinPopupPanels();
                 }
