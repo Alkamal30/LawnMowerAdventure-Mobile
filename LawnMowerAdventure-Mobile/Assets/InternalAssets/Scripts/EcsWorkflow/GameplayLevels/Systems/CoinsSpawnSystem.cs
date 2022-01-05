@@ -10,8 +10,6 @@ namespace AbyssMothGames.LawnMowerWorld
         private readonly EcsFilter<CoinComponent> _coinFilter = null;
         private readonly SceneConfiguration sceneConfiguration;
 
-        private int i = 1; // Only for debug
-
         public void Init()
         {
             var coinEcs = _world.NewEntity();
