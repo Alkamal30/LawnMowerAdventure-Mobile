@@ -6,7 +6,7 @@ namespace AbyssMothGames.LawnMowerWorld
     internal sealed class CoinsSpawnSystem : IEcsInitSystem, IEcsRunSystem
     {
         private readonly EcsWorld _world = null;
-        private readonly EcsFilter<CoinSpawnEvent> _coinSpawnEventfilter = null;
+        private readonly EcsFilter<CoinSpawnEventComponent> _coinSpawnEventfilter = null;
         private readonly EcsFilter<CoinComponent> _coinFilter = null;
         private readonly SceneConfigurationData sceneConfiguration;
 

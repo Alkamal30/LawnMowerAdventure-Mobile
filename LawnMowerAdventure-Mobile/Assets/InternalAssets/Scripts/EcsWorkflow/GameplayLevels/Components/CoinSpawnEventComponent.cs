@@ -2,7 +2,7 @@
 
 namespace AbyssMothGames.LawnMowerWorld
 {
-    public struct CoinSpawnEvent
+    public struct CoinSpawnEventComponent
     {
         public Vector3 SpawnPoint;
     }

@@ -68,7 +68,7 @@ namespace AbyssMothGames.LawnMowerWorld
         {
             var grassEntity = _world.NewEntity();
 
-            ref var coinSpawnEvent = ref grassEntity.Get<CoinSpawnEvent>();
+            ref var coinSpawnEvent = ref grassEntity.Get<CoinSpawnEventComponent>();
 
             coinSpawnEvent.SpawnPoint = position;
         }

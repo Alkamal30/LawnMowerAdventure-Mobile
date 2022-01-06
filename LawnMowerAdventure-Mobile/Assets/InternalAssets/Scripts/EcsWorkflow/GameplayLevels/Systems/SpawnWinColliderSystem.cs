@@ -6,7 +6,7 @@ namespace AbyssMothGames.LawnMowerWorld
     internal sealed class SpawnWinColliderSystem : IEcsInitSystem, IEcsRunSystem
     {
         private readonly EcsFilter<InitialGrassAmountComponent> initialGrassAmountFilter;
-        private readonly SceneConfigurationData sceneConfig;
+        private readonly OldSceneConfiguration sceneConfig;
 
         private int initialGrassAmount;
 
@@ -29,13 +29,13 @@ namespace AbyssMothGames.LawnMowerWorld
                 // 50% passing the level.
                 if (currentGrassAmount.InitialGrassAmount == (initialGrassAmount / 2) || currentGrassAmount.InitialGrassAmount == (initialGrassAmount / 2) + Random.Range(1, 10))
                 {
-                    sceneConfig.winSettings[0].winCollider.enabled = true;
-                }
-                if (currentGrassAmount.InitialGrassAmount <= 0)
-                {
-                    sceneConfig.winSettings[0].winCollider.enabled = true;
+                    sceneConfig.winCollider.enabled = true;
+
+                    UnityEngine.Debug.Log("Is active collider!");
                 }
             }
         }
+
+
     }
 }
