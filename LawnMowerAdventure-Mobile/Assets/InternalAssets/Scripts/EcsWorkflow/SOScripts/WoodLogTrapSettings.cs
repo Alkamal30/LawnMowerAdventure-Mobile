@@ -2,7 +2,7 @@
 
 namespace AbyssMothGames.LawnMowerWorld
 {
-    [CreateAssetMenu(fileName = "New Wood Log Trap Settings", menuName = "Create Wood Log Trap Settings", order = 0)]
+    [CreateAssetMenu(fileName = "NewWood Log Trap Settings", menuName = "CreateGameData/Wood Log Trap Settings", order = 0)]
     public sealed class WoodLogTrapSettings : ScriptableObject
     {
         public GameObject fallingLogPrefab = default;

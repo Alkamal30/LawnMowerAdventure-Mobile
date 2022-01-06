@@ -2,7 +2,7 @@
 
 namespace AbyssMothGames.LawnMowerWorld
 {
-    internal sealed class DataInitialization : IEcsPreInitSystem
+    internal sealed class DataInitializationSystem : IEcsPreInitSystem
     {
         private readonly SceneConfigurationData sceneConfig;
 

@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace AbyssMothGames.LawnMowerWorld
 {
-    internal sealed class SpawnWinCollider : IEcsInitSystem, IEcsRunSystem
+    internal sealed class SpawnWinColliderSystem : IEcsInitSystem, IEcsRunSystem
     {
         private readonly EcsFilter<InitialGrassAmountComponent> initialGrassAmountFilter;
         private readonly SceneConfigurationData sceneConfig;

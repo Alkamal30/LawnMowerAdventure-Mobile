@@ -65,7 +65,7 @@ namespace AbyssMothGames.LawnMowerWorld
         private void AddSystems()
         {
             _systems
-                .Add(new DataInitialization())
+                .Add(new DataInitializationSystem())
 
                 .Add(new PlayerInitSystem())
                 .Add(new LawnMowerSwingInitSystem())
@@ -77,16 +77,16 @@ namespace AbyssMothGames.LawnMowerWorld
                 .Add(new CharacterFollowSystem())
                 .Add(new StarHandlerSystem())
 
-                .Add(new GrassDestroyHandler())
+                .Add(new GrassDestroyHandlerSystem())
                 .Add(new CoinsSpawnSystem())
 
-                .Add(new SpawnWinCollider())
+                .Add(new SpawnWinColliderSystem())
 
-                .Add(new CompletionOfTheLevel())
+                .Add(new CompletionOfTheLevelSystem())
                 ;
 
             if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().name.Equals("Level_6"))
-                _systems.Add(new FallingLog());
+                _systems.Add(new FallingLogSystem());
 
         }
 

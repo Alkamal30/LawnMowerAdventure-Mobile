@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace AbyssMothGames.LawnMowerWorld
 {
-    internal sealed class GrassDestroyHandler : IEcsInitSystem
+    internal sealed class GrassDestroyHandlerSystem : IEcsInitSystem
     {
         private readonly EcsWorld _world = null;
         private readonly EcsFilter<CharacterComponent> _characterFilter = null;

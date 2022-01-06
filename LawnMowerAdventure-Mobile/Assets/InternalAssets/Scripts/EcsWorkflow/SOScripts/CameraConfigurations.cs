@@ -2,7 +2,7 @@
 
 namespace AbyssMothGames.LawnMowerWorld
 {
-    [CreateAssetMenu(fileName = "New Camera Configurations", menuName = "Create New Camera Configurations", order = 0)]
+    [CreateAssetMenu(fileName = "New Camera Configurations", menuName = "CreateGameData/Camera Configurations", order = 0)]
     public sealed class CameraConfigurations : ScriptableObject
     {
         public Vector3 currentVelocity = default;   // Default setting (0, 0, 0)

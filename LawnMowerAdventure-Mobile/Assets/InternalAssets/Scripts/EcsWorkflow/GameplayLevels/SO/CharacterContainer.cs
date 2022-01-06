@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace AbyssMothGames.LawnMowerWorld
 {
-    [CreateAssetMenu(fileName = "Lawn Mower_", menuName = "Create Lawn Mower Model", order = 0)]
+    [CreateAssetMenu(fileName = "Lawn Mower_", menuName = "CreateGameData/Lawn Mower Model", order = 0)]
     public class CharacterContainer : ScriptableObject
     {
         public List<LawmMowers> lawmMowers;

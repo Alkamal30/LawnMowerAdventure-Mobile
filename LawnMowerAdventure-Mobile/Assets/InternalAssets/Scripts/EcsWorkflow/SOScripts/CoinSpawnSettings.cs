@@ -2,7 +2,7 @@
 
 namespace AbyssMothGames.LawnMowerWorld
 {
-    [CreateAssetMenu(fileName = "New Coin Spawn Settings", menuName = "Create New Coin Spawn Settings", order = 0)]
+    [CreateAssetMenu(fileName = "New/Coin Spawn Settings", menuName = "CreateGameData/Coin Spawn Settings", order = 0)]
     public sealed class CoinSpawnSettings : ScriptableObject
     {
         [Range(0f, 100f)]

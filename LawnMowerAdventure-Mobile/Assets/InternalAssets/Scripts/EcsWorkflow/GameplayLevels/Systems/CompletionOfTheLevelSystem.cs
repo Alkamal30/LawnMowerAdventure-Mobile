@@ -2,7 +2,7 @@
 
 namespace AbyssMothGames.LawnMowerWorld
 {
-    internal sealed class CompletionOfTheLevel : IEcsInitSystem, IEcsRunSystem
+    internal sealed class CompletionOfTheLevelSystem : IEcsInitSystem, IEcsRunSystem
     {
         private readonly EcsFilter<InitialGrassAmountComponent> currentProgressFilter = null;
         private readonly EcsFilter<CharacterComponent> characterFilter = null;

@@ -2,7 +2,7 @@
 
 namespace AbyssMothGames.LawnMowerWorld
 {
-    [CreateAssetMenu(fileName = "New Win Settings", menuName = "Create New Win Settings", order = 0)]
+    [CreateAssetMenu(fileName = "New/WinSettings", menuName = "CreateGameData/Win Settings", order = 0)]
     public sealed class WinSettings : ScriptableObject
     {
         public Collider winCollider;

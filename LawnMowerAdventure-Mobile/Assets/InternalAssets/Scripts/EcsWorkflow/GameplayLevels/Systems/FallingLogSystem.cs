@@ -1,15 +1,9 @@
 ﻿using Leopotam.Ecs;
 using UnityEngine;
 
-/*
- TODO: Review -> SceneConfigurationData
- Не, ну это пзц... Надо будет создать контейнеры для хранения полей в классе SceneConfigurationData
- Ну или хотя бы заняться ревью полей и именований, так как это уже говнокод.
- */
-
 namespace AbyssMothGames.LawnMowerWorld
 {
-    internal sealed class FallingLog : IEcsInitSystem
+    internal sealed class FallingLogSystem : IEcsInitSystem
     {
         private readonly EcsWorld _world = null;
         private readonly EcsFilter<FallingLogComponent> fallingLogFilter = null;
