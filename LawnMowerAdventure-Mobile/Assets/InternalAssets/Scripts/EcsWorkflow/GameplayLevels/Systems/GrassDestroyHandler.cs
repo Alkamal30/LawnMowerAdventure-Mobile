@@ -19,7 +19,7 @@ namespace AbyssMothGames.LawnMowerWorld
             foreach (int index in _characterFilter)
             {
                 ref var character = ref _characterFilter.Get1(index);
-                GrassDestroyer characterGrassDestroyer = character.characterGO.GetComponent<GrassDestroyer>();
+                GrassDestroyer characterGrassDestroyer = character.GameObject.GetComponent<GrassDestroyer>();
 
                 // TODO: Отписка от события.
                 characterGrassDestroyer.OnGrassDestroyedDelegate += OnGrassDestroyed;

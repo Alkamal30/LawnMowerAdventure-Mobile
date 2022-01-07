@@ -37,23 +37,27 @@ namespace AbyssMothGames.LawnMowerWorld
 
                 var currentPosition = cameraComponent.cameraTransform.position;
 
-                if (playerComponent.characterGO == null)
+                if (playerComponent.GameObject == null)
                 {
                     Debug.Log("The player's object reference has gone off or the player has lost.");
 
                     return;
                 }
 
-                var targetPoint = playerComponent.characterGO.transform.position + cameraComponent.offset;
+                var targetPoint = playerComponent.GameObject.transform.position + cameraComponent.offset;
 
-                cameraComponent.cameraTransform.position =
+                /* Из-за этого кода камера начинает дёргаться */
+                /*cameraComponent.cameraTransform.position =
                     Vector3.SmoothDamp
                     (
                         currentPosition,
                         targetPoint,
                         ref cameraComponent.currentVelocity,
                         cameraComponent.cameraSmoothness
-                    );
+                    );*/
+                
+                /* Временное решение */
+                cameraComponent.cameraTransform.position = targetPoint;
             }
         }
     }

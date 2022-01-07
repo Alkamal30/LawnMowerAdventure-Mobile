@@ -30,7 +30,7 @@ namespace AbyssMothGames.LawnMowerWorld
             foreach (int index in _characterFilter)
             {
                 ref var characterComponent = ref _characterFilter.Get1(index);
-                var characterTransform = characterComponent.characterGO.transform;
+                var characterTransform = characterComponent.GameObject.transform;
 
                 characterTransform.Rotate(0, angle, 0);
             }

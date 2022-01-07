@@ -1,123 +1,123 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ru' Physical Memory: 8119 MB
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'ru' Physical Memory: 15722 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.25f1\Editor\Unity.exe
+D:\Programms\Unity Hub\Editor\2020.3.25f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Rimuru/Develop/Unity/Lawn Mower Adventure-Mobile/LawnMowerAdventure-Mobile
+D:/Projects/Unity/LawnMowerAdventure-Mobile/LawnMowerAdventure-Mobile
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60398
-Successfully changed project path to: D:/Rimuru/Develop/Unity/Lawn Mower Adventure-Mobile/LawnMowerAdventure-Mobile
-D:/Rimuru/Develop/Unity/Lawn Mower Adventure-Mobile/LawnMowerAdventure-Mobile
+51265
+Successfully changed project path to: D:/Projects/Unity/LawnMowerAdventure-Mobile/LawnMowerAdventure-Mobile
+D:/Projects/Unity/LawnMowerAdventure-Mobile/LawnMowerAdventure-Mobile
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 65.13 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 66.59 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Rimuru/Develop/Unity/Lawn Mower Adventure-Mobile/LawnMowerAdventure-Mobile/Assets
+[Subsystems] Discovering subsystems at path D:/Programms/Unity Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Projects/Unity/LawnMowerAdventure-Mobile/LawnMowerAdventure-Mobile/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GT 730 (ID=0x1287)
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x164c)
     Vendor:   
-    VRAM:     4052 MB
-    Driver:   30.0.14.7212
+    VRAM:     7861 MB
+    Driver:   27.20.14044.2
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
+Mono path[0] = 'D:/Programms/Unity Hub/Editor/2020.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Programms/Unity Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Programms/Unity Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56772
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001731 seconds.
+Register platform support module: D:/Programms/Unity Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000731 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 65.32 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 61.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.630 seconds
+- Completed reload, in  0.536 seconds
 Domain Reload Profiling:
-	ReloadAssembly (630ms)
-		BeginReloadAssembly (51ms)
+	ReloadAssembly (537ms)
+		BeginReloadAssembly (39ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (501ms)
-			LoadAssemblies (49ms)
+		EndReloadAssembly (434ms)
+			LoadAssemblies (39ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (156ms)
+			SetupTypeCache (144ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (202ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (176ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (65ms)
-				BeforeProcessingInitializeOnLoad (17ms)
-				ProcessInitializeOnLoadAttributes (85ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
+				RefreshPlugins (62ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (75ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004423 seconds.
+Registered in 0.003844 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 69.02 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 61.15 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.238 seconds
+- Completed reload, in  1.047 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1239ms)
-		BeginReloadAssembly (146ms)
+	ReloadAssembly (1048ms)
+		BeginReloadAssembly (121ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (1024ms)
-			LoadAssemblies (96ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (875ms)
+			LoadAssemblies (77ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (354ms)
+			SetupTypeCache (314ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (385ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (332ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (69ms)
-				BeforeProcessingInitializeOnLoad (97ms)
-				ProcessInitializeOnLoadAttributes (200ms)
+				RefreshPlugins (61ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (178ms)
 				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.98 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3052 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 160.9 MB.
-System memory in use after: 161.2 MB.
+System memory in use before: 140.0 MB.
+System memory in use after: 140.2 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3520.
-Total: 7.786800 ms (FindLiveObjects: 0.511700 ms CreateObjectMapping: 0.118100 ms MarkObjects: 7.064300 ms  DeleteObjects: 0.088100 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3487.
+Total: 5.297100 ms (FindLiveObjects: 0.594800 ms CreateObjectMapping: 0.103300 ms MarkObjects: 4.479500 ms  DeleteObjects: 0.117700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,275 +131,181 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/InternalAssets/Scenes/Levels/Level_1.unity
-  artifactKey: Guid(47eb7e41cf410f448a5ac1408a7d9934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InternalAssets/Scenes/Levels/Level_1.unity using Guid(47eb7e41cf410f448a5ac1408a7d9934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c739ebb24b79bea07f7de7fdc355051e') in 0.019845 seconds 
-  Import took 0.026635 seconds .
+  path: Assets/InternalAssets/Art/GameLevelGraphicsPack/Prefabs/Grass_2.prefab
+  artifactKey: Guid(7362a44b1c8c027498452ea6120ddb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InternalAssets/Art/GameLevelGraphicsPack/Prefabs/Grass_2.prefab using Guid(7362a44b1c8c027498452ea6120ddb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) TypeLoadException: Could not load type AbyssMothGames.LawnMowerWorld.HorizontalCameraMovementComponent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null while decoding custom attribute: (null)
+  at (wrapper managed-to-native) System.MonoCustomAttrs.GetCustomAttributesInternal(System.Reflection.ICustomAttributeProvider,System.Type,bool)
+  at System.MonoCustomAttrs.GetCustomAttributesBase (System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inheritedOnly) [0x00013] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.MonoCustomAttrs.GetCustomAttributes (System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inherit) [0x00037] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.RuntimeType.GetCustomAttributes (System.Type attributeType, System.Boolean inherit) [0x00038] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.CustomEditorAttributes.Rebuild () [0x00034] in <7ac35247888b44f4a7e290f1f6bb33f3>:0 
+  at UnityEditor.CustomEditorAttributes.FindCustomEditorTypeByType (System.Type type, System.Boolean multiEdit) [0x0000e] in <7ac35247888b44f4a7e290f1f6bb33f3>:0 
+  at UnityEditor.CustomEditorAttributes.FindCustomEditorType (UnityEngine.Object o, System.Boolean multiEdit) [0x00007] in <7ac35247888b44f4a7e290f1f6bb33f3>:0 
+  at UnityEditor.AssetPreviewUpdater.CreatePreviewForAsset (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath) [0x00016] in <7ac35247888b44f4a7e290f1f6bb33f3>:0 
+
+ -> (artifact id: '7e10dbf19bedb26e0f50406fc9b34bd0') in 0.058108 seconds 
+  Import took 0.065111 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/InternalAssets/Scenes/Levels/Level_2.unity
-  artifactKey: Guid(45a4f26b8b2d1bf42b531c8762ab10f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InternalAssets/Scenes/Levels/Level_2.unity using Guid(45a4f26b8b2d1bf42b531c8762ab10f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac675f31e10233a5d0e689888b4e262') in 0.002271 seconds 
-  Import took 0.006673 seconds .
+  Time since last request: 0.000287 seconds.
+  path: Assets/InternalAssets/Art/GameLevelGraphicsPack/Prefabs/Gas Station.prefab
+  artifactKey: Guid(8c8eb994763fb7a4cbeebf9151b6321a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InternalAssets/Art/GameLevelGraphicsPack/Prefabs/Gas Station.prefab using Guid(8c8eb994763fb7a4cbeebf9151b6321a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) TypeLoadException: Could not load type AbyssMothGames.LawnMowerWorld.HorizontalCameraMovementComponent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null while decoding custom attribute: (null)
+  at (wrapper managed-to-native) System.MonoCustomAttrs.GetCustomAttributesInternal(System.Reflection.ICustomAttributeProvider,System.Type,bool)
+  at System.MonoCustomAttrs.GetCustomAttributesBase (System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inheritedOnly) [0x00013] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.MonoCustomAttrs.GetCustomAttributes (System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inherit) [0x00037] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.RuntimeType.GetCustomAttributes (System.Type attributeType, System.Boolean inherit) [0x00038] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.CustomEditorAttributes.Rebuild () [0x00034] in <7ac35247888b44f4a7e290f1f6bb33f3>:0 
+  at UnityEditor.CustomEditorAttributes.FindCustomEditorTypeByType (System.Type type, System.Boolean multiEdit) [0x0000e] in <7ac35247888b44f4a7e290f1f6bb33f3>:0 
+  at UnityEditor.CustomEditorAttributes.FindCustomEditorType (UnityEngine.Object o, System.Boolean multiEdit) [0x00007] in <7ac35247888b44f4a7e290f1f6bb33f3>:0 
+  at UnityEditor.AssetPreviewUpdater.CreatePreviewForAsset (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath) [0x00016] in <7ac35247888b44f4a7e290f1f6bb33f3>:0 
+
+ -> (artifact id: '7bde9255b260055592ab997f6ac65007') in 0.014036 seconds 
+  Import took 0.018961 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.147936 seconds.
-  path: Assets/InternalAssets/Scenes/Levels/Level_3.unity
-  artifactKey: Guid(6aa35632d670ecf42bf21c830c247ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InternalAssets/Scenes/Levels/Level_3.unity using Guid(6aa35632d670ecf42bf21c830c247ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf501be690ee727c15d4ab124a2cf68') in 0.005429 seconds 
-  Import took 0.017518 seconds .
+  Time since last request: 0.000276 seconds.
+  path: Assets/InternalAssets/Art/GameLevelGraphicsPack/Prefabs/LawnMower_Model_D2.prefab
+  artifactKey: Guid(50fbe105c9f783844ab2b68fbf52215c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InternalAssets/Art/GameLevelGraphicsPack/Prefabs/LawnMower_Model_D2.prefab using Guid(50fbe105c9f783844ab2b68fbf52215c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) TypeLoadException: Could not load type AbyssMothGames.LawnMowerWorld.HorizontalCameraMovementComponent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null while decoding custom attribute: (null)
+  at (wrapper managed-to-native) System.MonoCustomAttrs.GetCustomAttributesInternal(System.Reflection.ICustomAttributeProvider,System.Type,bool)
+  at System.MonoCustomAttrs.GetCustomAttributesBase (System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inheritedOnly) [0x00013] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.MonoCustomAttrs.GetCustomAttributes (System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inherit) [0x00037] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.RuntimeType.GetCustomAttributes (System.Type attributeType, System.Boolean inherit) [0x00038] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.CustomEditorAttributes.Rebuild () [0x00034] in <7ac35247888b44f4a7e290f1f6bb33f3>:0 
+  at UnityEditor.CustomEditorAttributes.FindCustomEditorTypeByType (System.Type type, System.Boolean multiEdit) [0x0000e] in <7ac35247888b44f4a7e290f1f6bb33f3>:0 
+  at UnityEditor.CustomEditorAttributes.FindCustomEditorType (UnityEngine.Object o, System.Boolean multiEdit) [0x00007] in <7ac35247888b44f4a7e290f1f6bb33f3>:0 
+  at UnityEditor.AssetPreviewUpdater.CreatePreviewForAsset (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath) [0x00016] in <7ac35247888b44f4a7e290f1f6bb33f3>:0 
+
+ -> (artifact id: 'a629b595951bf14f8b88bbbc74b20a04') in 0.016355 seconds 
+  Import took 0.021796 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.690361 seconds.
-  path: Assets/InternalAssets/Scenes/Levels/Level_1.unity
-  artifactKey: Guid(47eb7e41cf410f448a5ac1408a7d9934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InternalAssets/Scenes/Levels/Level_1.unity using Guid(47eb7e41cf410f448a5ac1408a7d9934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9069cb5a35174e12003305c2ae6eb5f') in 0.004928 seconds 
-  Import took 0.017452 seconds .
+  Time since last request: 0.000324 seconds.
+  path: Assets/InternalAssets/Art/GameLevelGraphicsPack/Prefabs/Scene_001.prefab
+  artifactKey: Guid(fe184bb330343a844bbb2ac4bf9085a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InternalAssets/Art/GameLevelGraphicsPack/Prefabs/Scene_001.prefab using Guid(fe184bb330343a844bbb2ac4bf9085a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) TypeLoadException: Could not load type AbyssMothGames.LawnMowerWorld.HorizontalCameraMovementComponent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null while decoding custom attribute: (null)
+  at (wrapper managed-to-native) System.MonoCustomAttrs.GetCustomAttributesInternal(System.Reflection.ICustomAttributeProvider,System.Type,bool)
+  at System.MonoCustomAttrs.GetCustomAttributesBase (System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inheritedOnly) [0x00013] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.MonoCustomAttrs.GetCustomAttributes (System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inherit) [0x00037] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.RuntimeType.GetCustomAttributes (System.Type attributeType, System.Boolean inherit) [0x00038] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.CustomEditorAttributes.Rebuild () [0x00034] in <7ac35247888b44f4a7e290f1f6bb33f3>:0 
+  at UnityEditor.CustomEditorAttributes.FindCustomEditorTypeByType (System.Type type, System.Boolean multiEdit) [0x0000e] in <7ac35247888b44f4a7e290f1f6bb33f3>:0 
+  at UnityEditor.CustomEditorAttributes.FindCustomEditorType (UnityEngine.Object o, System.Boolean multiEdit) [0x00007] in <7ac35247888b44f4a7e290f1f6bb33f3>:0 
+  at UnityEditor.AssetPreviewUpdater.CreatePreviewForAsset (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath) [0x00016] in <7ac35247888b44f4a7e290f1f6bb33f3>:0 
+
+ -> (artifact id: '70ba1e09d51967a7459177e7d849cc14') in 0.014493 seconds 
+  Import took 0.021546 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 28.159020 seconds.
-  path: Assets/InternalAssets/Art
-  artifactKey: Guid(ed0e95a86eb8c9a4da49157931e5b3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InternalAssets/Art using Guid(ed0e95a86eb8c9a4da49157931e5b3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f2d14eee0b6c3728ba85c91f032fc9') in 0.003630 seconds 
-  Import took 0.014672 seconds .
+  Time since last request: 0.000369 seconds.
+  path: Assets/InternalAssets/Art/GameLevelGraphicsPack/Prefabs/Grass_Stick_1.prefab
+  artifactKey: Guid(05871e742ae33d24dba900d971d9141c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InternalAssets/Art/GameLevelGraphicsPack/Prefabs/Grass_Stick_1.prefab using Guid(05871e742ae33d24dba900d971d9141c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) TypeLoadException: Could not load type AbyssMothGames.LawnMowerWorld.HorizontalCameraMovementComponent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null while decoding custom attribute: (null)
+  at (wrapper managed-to-native) System.MonoCustomAttrs.GetCustomAttributesInternal(System.Reflection.ICustomAttributeProvider,System.Type,bool)
+  at System.MonoCustomAttrs.GetCustomAttributesBase (System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inheritedOnly) [0x00013] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.MonoCustomAttrs.GetCustomAttributes (System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inherit) [0x00037] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.RuntimeType.GetCustomAttributes (System.Type attributeType, System.Boolean inherit) [0x00038] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.CustomEditorAttributes.Rebuild () [0x00034] in <7ac35247888b44f4a7e290f1f6bb33f3>:0 
+  at UnityEditor.CustomEditorAttributes.FindCustomEditorTypeByType (System.Type type, System.Boolean multiEdit) [0x0000e] in <7ac35247888b44f4a7e290f1f6bb33f3>:0 
+  at UnityEditor.CustomEditorAttributes.FindCustomEditorType (UnityEngine.Object o, System.Boolean multiEdit) [0x00007] in <7ac35247888b44f4a7e290f1f6bb33f3>:0 
+  at UnityEditor.AssetPreviewUpdater.CreatePreviewForAsset (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath) [0x00016] in <7ac35247888b44f4a7e290f1f6bb33f3>:0 
+
+ -> (artifact id: '6d63a5b8b46da45e1e599bf5a0a24459') in 0.017180 seconds 
+  Import took 0.023966 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.886810 seconds.
-  path: Assets/InternalAssets/Art/Prefabs
-  artifactKey: Guid(579201550f1279a45b844a52c9dd7cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InternalAssets/Art/Prefabs using Guid(579201550f1279a45b844a52c9dd7cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dcc9c1edfb0bbfcff43c8d0b5bfcf39') in 0.001984 seconds 
-  Import took 0.007053 seconds .
+  Time since last request: 0.000245 seconds.
+  path: Assets/InternalAssets/Art/GameLevelGraphicsPack/Prefabs/LawnMower_Model_D1.prefab
+  artifactKey: Guid(691e161839e22d342a17baa1ab1d40ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InternalAssets/Art/GameLevelGraphicsPack/Prefabs/LawnMower_Model_D1.prefab using Guid(691e161839e22d342a17baa1ab1d40ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) TypeLoadException: Could not load type AbyssMothGames.LawnMowerWorld.HorizontalCameraMovementComponent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null while decoding custom attribute: (null)
+  at (wrapper managed-to-native) System.MonoCustomAttrs.GetCustomAttributesInternal(System.Reflection.ICustomAttributeProvider,System.Type,bool)
+  at System.MonoCustomAttrs.GetCustomAttributesBase (System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inheritedOnly) [0x00013] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.MonoCustomAttrs.GetCustomAttributes (System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inherit) [0x00037] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.RuntimeType.GetCustomAttributes (System.Type attributeType, System.Boolean inherit) [0x00038] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.CustomEditorAttributes.Rebuild () [0x00034] in <7ac35247888b44f4a7e290f1f6bb33f3>:0 
+  at UnityEditor.CustomEditorAttributes.FindCustomEditorTypeByType (System.Type type, System.Boolean multiEdit) [0x0000e] in <7ac35247888b44f4a7e290f1f6bb33f3>:0 
+  at UnityEditor.CustomEditorAttributes.FindCustomEditorType (UnityEngine.Object o, System.Boolean multiEdit) [0x00007] in <7ac35247888b44f4a7e290f1f6bb33f3>:0 
+  at UnityEditor.AssetPreviewUpdater.CreatePreviewForAsset (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath) [0x00016] in <7ac35247888b44f4a7e290f1f6bb33f3>:0 
+
+ -> (artifact id: 'ef68732425273a50bab07f5f02bcf9a1') in 0.012181 seconds 
+  Import took 0.018263 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.035106 seconds.
-  path: Assets/InternalAssets/Art/Prefabs/InputRotationCanvas.prefab
-  artifactKey: Guid(d9923070a697f72498f2c98b826dd46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InternalAssets/Art/Prefabs/InputRotationCanvas.prefab using Guid(d9923070a697f72498f2c98b826dd46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77730e00b118ffb98de9f89faaa276be') in 0.061905 seconds 
-  Import took 0.066665 seconds .
+  Time since last request: 0.000306 seconds.
+  path: Assets/InternalAssets/Art/GameLevelGraphicsPack/Prefabs/Level_2.prefab
+  artifactKey: Guid(b7646d65001697446a0e4c915a14c074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InternalAssets/Art/GameLevelGraphicsPack/Prefabs/Level_2.prefab using Guid(b7646d65001697446a0e4c915a14c074) Importer(815301076,1909f56bfc062723c751e8b465ee728b) TypeLoadException: Could not load type AbyssMothGames.LawnMowerWorld.HorizontalCameraMovementComponent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null while decoding custom attribute: (null)
+  at (wrapper managed-to-native) System.MonoCustomAttrs.GetCustomAttributesInternal(System.Reflection.ICustomAttributeProvider,System.Type,bool)
+  at System.MonoCustomAttrs.GetCustomAttributesBase (System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inheritedOnly) [0x00013] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.MonoCustomAttrs.GetCustomAttributes (System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inherit) [0x00037] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.RuntimeType.GetCustomAttributes (System.Type attributeType, System.Boolean inherit) [0x00038] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.CustomEditorAttributes.Rebuild () [0x00034] in <7ac35247888b44f4a7e290f1f6bb33f3>:0 
+  at UnityEditor.CustomEditorAttributes.FindCustomEditorTypeByType (System.Type type, System.Boolean multiEdit) [0x0000e] in <7ac35247888b44f4a7e290f1f6bb33f3>:0 
+  at UnityEditor.CustomEditorAttributes.FindCustomEditorType (UnityEngine.Object o, System.Boolean multiEdit) [0x00007] in <7ac35247888b44f4a7e290f1f6bb33f3>:0 
+  at UnityEditor.AssetPreviewUpdater.CreatePreviewForAsset (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath) [0x00016] in <7ac35247888b44f4a7e290f1f6bb33f3>:0 
+
+ -> (artifact id: 'a2f9959126409160a5f552b4d30f3b6f') in 0.020486 seconds 
+  Import took 0.028465 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.112546 seconds.
-  path: Assets/InternalAssets/Art/Prefabs/Old
-  artifactKey: Guid(b325dba741e83884594382977c72d22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InternalAssets/Art/Prefabs/Old using Guid(b325dba741e83884594382977c72d22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7083d7eb863d399b79fc1b0e4e661d66') in 0.002318 seconds 
-  Import took 0.008286 seconds .
+  Time since last request: 0.000223 seconds.
+  path: Assets/InternalAssets/Art/GameLevelGraphicsPack/Prefabs/Block_001.prefab
+  artifactKey: Guid(8c168d1b822f59448b616ca672263a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InternalAssets/Art/GameLevelGraphicsPack/Prefabs/Block_001.prefab using Guid(8c168d1b822f59448b616ca672263a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) TypeLoadException: Could not load type AbyssMothGames.LawnMowerWorld.HorizontalCameraMovementComponent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null while decoding custom attribute: (null)
+  at (wrapper managed-to-native) System.MonoCustomAttrs.GetCustomAttributesInternal(System.Reflection.ICustomAttributeProvider,System.Type,bool)
+  at System.MonoCustomAttrs.GetCustomAttributesBase (System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inheritedOnly) [0x00013] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.MonoCustomAttrs.GetCustomAttributes (System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inherit) [0x00037] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.RuntimeType.GetCustomAttributes (System.Type attributeType, System.Boolean inherit) [0x00038] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.CustomEditorAttributes.Rebuild () [0x00034] in <7ac35247888b44f4a7e290f1f6bb33f3>:0 
+  at UnityEditor.CustomEditorAttributes.FindCustomEditorTypeByType (System.Type type, System.Boolean multiEdit) [0x0000e] in <7ac35247888b44f4a7e290f1f6bb33f3>:0 
+  at UnityEditor.CustomEditorAttributes.FindCustomEditorType (UnityEngine.Object o, System.Boolean multiEdit) [0x00007] in <7ac35247888b44f4a7e290f1f6bb33f3>:0 
+  at UnityEditor.AssetPreviewUpdater.CreatePreviewForAsset (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath) [0x00016] in <7ac35247888b44f4a7e290f1f6bb33f3>:0 
+
+ -> (artifact id: 'e8d6511c0b3fca9faa370eaae5c0a090') in 0.016604 seconds 
+  Import took 0.023569 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.071764 seconds.
-  path: Assets/InternalAssets/Art/Prefabs/Old/DestroyOilPrefab.prefab
-  artifactKey: Guid(46ee7bbcf39a75649b711cea9e77ff4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InternalAssets/Art/Prefabs/Old/DestroyOilPrefab.prefab using Guid(46ee7bbcf39a75649b711cea9e77ff4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d3782e49559f7ac0e7e68e6d8799d0') in 0.005015 seconds 
-  Import took 0.009964 seconds .
+  Time since last request: 0.000297 seconds.
+  path: Assets/InternalAssets/Art/GameLevelGraphicsPack/Prefabs/Level_1.prefab
+  artifactKey: Guid(1dde0f4686c5dd34490774f2f20db7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InternalAssets/Art/GameLevelGraphicsPack/Prefabs/Level_1.prefab using Guid(1dde0f4686c5dd34490774f2f20db7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) TypeLoadException: Could not load type AbyssMothGames.LawnMowerWorld.HorizontalCameraMovementComponent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null while decoding custom attribute: (null)
+  at (wrapper managed-to-native) System.MonoCustomAttrs.GetCustomAttributesInternal(System.Reflection.ICustomAttributeProvider,System.Type,bool)
+  at System.MonoCustomAttrs.GetCustomAttributesBase (System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inheritedOnly) [0x00013] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.MonoCustomAttrs.GetCustomAttributes (System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inherit) [0x00037] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.RuntimeType.GetCustomAttributes (System.Type attributeType, System.Boolean inherit) [0x00038] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.CustomEditorAttributes.Rebuild () [0x00034] in <7ac35247888b44f4a7e290f1f6bb33f3>:0 
+  at UnityEditor.CustomEditorAttributes.FindCustomEditorTypeByType (System.Type type, System.Boolean multiEdit) [0x0000e] in <7ac35247888b44f4a7e290f1f6bb33f3>:0 
+  at UnityEditor.CustomEditorAttributes.FindCustomEditorType (UnityEngine.Object o, System.Boolean multiEdit) [0x00007] in <7ac35247888b44f4a7e290f1f6bb33f3>:0 
+  at UnityEditor.AssetPreviewUpdater.CreatePreviewForAsset (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath) [0x00016] in <7ac35247888b44f4a7e290f1f6bb33f3>:0 
+
+ -> (artifact id: 'e6a05e6d78ecbeb06919f9180f3d8d63') in 0.025851 seconds 
+  Import took 0.035839 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/InternalAssets/Art/Prefabs/Old/RightOilPoint.prefab
-  artifactKey: Guid(1f0137a49733d1d42bc2b7e39976e6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InternalAssets/Art/Prefabs/Old/RightOilPoint.prefab using Guid(1f0137a49733d1d42bc2b7e39976e6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a3d26fbe90d7c07f2103841f650c90') in 0.007882 seconds 
-  Import took 0.012895 seconds .
+  Time since last request: 0.000440 seconds.
+  path: Assets/InternalAssets/Art/GameLevelGraphicsPack/Prefabs/LawnMower_Model_D3.prefab
+  artifactKey: Guid(533fb0c9c670ede4abd4daf2d1224c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InternalAssets/Art/GameLevelGraphicsPack/Prefabs/LawnMower_Model_D3.prefab using Guid(533fb0c9c670ede4abd4daf2d1224c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) TypeLoadException: Could not load type AbyssMothGames.LawnMowerWorld.HorizontalCameraMovementComponent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null while decoding custom attribute: (null)
+  at (wrapper managed-to-native) System.MonoCustomAttrs.GetCustomAttributesInternal(System.Reflection.ICustomAttributeProvider,System.Type,bool)
+  at System.MonoCustomAttrs.GetCustomAttributesBase (System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inheritedOnly) [0x00013] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.MonoCustomAttrs.GetCustomAttributes (System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inherit) [0x00037] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.RuntimeType.GetCustomAttributes (System.Type attributeType, System.Boolean inherit) [0x00038] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.CustomEditorAttributes.Rebuild () [0x00034] in <7ac35247888b44f4a7e290f1f6bb33f3>:0 
+  at UnityEditor.CustomEditorAttributes.FindCustomEditorTypeByType (System.Type type, System.Boolean multiEdit) [0x0000e] in <7ac35247888b44f4a7e290f1f6bb33f3>:0 
+  at UnityEditor.CustomEditorAttributes.FindCustomEditorType (UnityEngine.Object o, System.Boolean multiEdit) [0x00007] in <7ac35247888b44f4a7e290f1f6bb33f3>:0 
+  at UnityEditor.AssetPreviewUpdater.CreatePreviewForAsset (UnityEngine.Object obj, UnityEngine.Object[] subAssets, System.String assetPath) [0x00016] in <7ac35247888b44f4a7e290f1f6bb33f3>:0 
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/InternalAssets/Art/Prefabs/Old/LeftOilPoint.prefab
-  artifactKey: Guid(0ef3a0619d0959548be9245006b49028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InternalAssets/Art/Prefabs/Old/LeftOilPoint.prefab using Guid(0ef3a0619d0959548be9245006b49028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3d62678479e6092fc7e0105256e066') in 0.004905 seconds 
-  Import took 0.009765 seconds .
+ -> (artifact id: '129d8f3e522a745481559aa87c2ea0c0') in 0.013104 seconds 
+  Import took 0.020031 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 89.812665 seconds.
-  path: Assets/InternalAssets/Art/Prefabs/DoTweenPanels.prefab
-  artifactKey: Guid(1928dc8b9c5209349a38141766391b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InternalAssets/Art/Prefabs/DoTweenPanels.prefab using Guid(1928dc8b9c5209349a38141766391b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '310a9bc98df1917ea507371637df920f') in 0.020392 seconds 
-  Import took 0.031212 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.943133 seconds.
-  path: Assets/InternalAssets/Scenes/Levels/Level_2.unity
-  artifactKey: Guid(45a4f26b8b2d1bf42b531c8762ab10f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InternalAssets/Scenes/Levels/Level_2.unity using Guid(45a4f26b8b2d1bf42b531c8762ab10f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f95546c31ccc339e1a63b1dcd9a31548') in 0.004226 seconds 
-  Import took 0.017022 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.378275 seconds.
-  path: Assets/InternalAssets/Scenes/Levels/Level_3.unity
-  artifactKey: Guid(6aa35632d670ecf42bf21c830c247ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InternalAssets/Scenes/Levels/Level_3.unity using Guid(6aa35632d670ecf42bf21c830c247ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3920e154b06308b39ca0ac7aa2ebd850') in 0.004247 seconds 
-  Import took 0.014770 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.983417 seconds.
-  path: Assets/InternalAssets/Scenes/Levels/Level_3.unity
-  artifactKey: Guid(6aa35632d670ecf42bf21c830c247ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InternalAssets/Scenes/Levels/Level_3.unity using Guid(6aa35632d670ecf42bf21c830c247ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b288e6bceef3dab4180c27ab5c889e26') in 0.004435 seconds 
-  Import took 0.015911 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.359590 seconds.
-  path: Assets/InternalAssets/Scenes/Levels/Level_4.unity
-  artifactKey: Guid(2a22d94a8e5eae847b2b6c7892668482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InternalAssets/Scenes/Levels/Level_4.unity using Guid(2a22d94a8e5eae847b2b6c7892668482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12cf6d205ffd1d3f195f19b53ad6140c') in 0.004990 seconds 
-  Import took 0.016210 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.630938 seconds.
-  path: Assets/InternalAssets/Scenes/Levels/Level_5.unity
-  artifactKey: Guid(e377aa6d8a7dfff4b933b02ca39d8bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InternalAssets/Scenes/Levels/Level_5.unity using Guid(e377aa6d8a7dfff4b933b02ca39d8bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef5e793b57ae1d882cd78e9de16aa2eb') in 0.004903 seconds 
-  Import took 0.015995 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.042527 seconds.
-  path: Assets/InternalAssets/Scenes/Levels/Level_6.unity
-  artifactKey: Guid(d368e13ed6d4fdc46ba5376018ba33bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InternalAssets/Scenes/Levels/Level_6.unity using Guid(d368e13ed6d4fdc46ba5376018ba33bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c2e29a13957988a67f50900cc219f10') in 0.005453 seconds 
-  Import took 0.017804 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.145419 seconds.
-  path: Assets/InternalAssets/Scenes/Levels/Level_7.unity
-  artifactKey: Guid(d709672b6c776714cb39f427a0375451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InternalAssets/Scenes/Levels/Level_7.unity using Guid(d709672b6c776714cb39f427a0375451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd31be17f074eeba5d53957193b97db') in 0.005458 seconds 
-  Import took 0.017044 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.901154 seconds.
-  path: Assets/InternalAssets/Scenes/Levels/Level_8.unity
-  artifactKey: Guid(1d3515f47d7cf6a4e82bad3c7d864fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InternalAssets/Scenes/Levels/Level_8.unity using Guid(1d3515f47d7cf6a4e82bad3c7d864fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab3461754f10bb6b2107ff9520bf671') in 0.004465 seconds 
-  Import took 0.016490 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.022771 seconds.
-  path: Assets/InternalAssets/Scenes/OtherMenus/ChoosingLevelsFirstWorld.unity
-  artifactKey: Guid(a7c5effbba65f0f4abc1985dad7f2420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InternalAssets/Scenes/OtherMenus/ChoosingLevelsFirstWorld.unity using Guid(a7c5effbba65f0f4abc1985dad7f2420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c50b4db7d1ec36bdf069d247123cac') in 0.005186 seconds 
-  Import took 0.016236 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.914612 seconds.
-  path: Assets/InternalAssets/Scenes/OtherMenus/DeathScene.unity
-  artifactKey: Guid(f1f2ae8139a1ba848bd35664a1749bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InternalAssets/Scenes/OtherMenus/DeathScene.unity using Guid(f1f2ae8139a1ba848bd35664a1749bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5b56cda5b9de7d945a99dd85d8048b') in 0.004628 seconds 
-  Import took 0.015939 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.623729 seconds.
-  path: Assets/InternalAssets/Scenes/OtherMenus/GarageScene.unity
-  artifactKey: Guid(3e1c0ff467f20f041b673178f8975665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InternalAssets/Scenes/OtherMenus/GarageScene.unity using Guid(3e1c0ff467f20f041b673178f8975665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c570dcf8c3d0ab47ea0103c315fbed4b') in 0.002756 seconds 
-  Import took 0.008088 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.197491 seconds.
-  path: Assets/InternalAssets/Scenes/OtherMenus/LawnMowerShop.unity
-  artifactKey: Guid(6d7ab615309087c4b858d5ec5e99b718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InternalAssets/Scenes/OtherMenus/LawnMowerShop.unity using Guid(6d7ab615309087c4b858d5ec5e99b718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb4c6f080478fbba6e4e276939b23d1a') in 0.004705 seconds 
-  Import took 0.016178 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.406842 seconds.
-  path: Assets/ExternalAssets/Plugins/TypedScenes/Samples/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalAssets/Plugins/TypedScenes/Samples/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb476d3d058f3ffae846cec9437fbedc') in 0.004241 seconds 
-  Import took 0.016527 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.481297 seconds.
-  path: Assets/InternalAssets/Scenes/OtherMenus/WinScene.unity
-  artifactKey: Guid(643fe0e64678606409ba96aaea9295e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InternalAssets/Scenes/OtherMenus/WinScene.unity using Guid(643fe0e64678606409ba96aaea9295e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31644e65b4e3f156ed6823f461741246') in 0.002300 seconds 
-  Import took 0.007585 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.154000 seconds.
-  path: Assets/InternalAssets/Scenes/OtherMenus/WorldsScene.unity
-  artifactKey: Guid(606a67708a06e6d4e97c2e9cf18c858a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InternalAssets/Scenes/OtherMenus/WorldsScene.unity using Guid(606a67708a06e6d4e97c2e9cf18c858a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c6a53b7ffec72553d6888e403d06a7') in 0.002977 seconds 
-  Import took 0.008082 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004325 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.178 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1179ms)
-		BeginReloadAssembly (146ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (64ms)
-		EndReloadAssembly (960ms)
-			LoadAssemblies (96ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (361ms)
-			ReleaseScriptCaches (5ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (329ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (107ms)
-				ProcessInitializeOnLoadAttributes (202ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589828) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2919 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 149.0 MB.
-System memory in use after: 149.2 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3525.
-Total: 3.641400 ms (FindLiveObjects: 0.318300 ms CreateObjectMapping: 0.115400 ms MarkObjects: 3.161700 ms  DeleteObjects: 0.044400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

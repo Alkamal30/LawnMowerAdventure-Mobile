@@ -27,7 +27,7 @@ namespace AbyssMothGames.LawnMowerWorld
                 {
                     ref var character = ref characterFilter.Get1(i);
 
-                    character.characterSpeed = 0;
+                    character.MovementSpeed = 0;
 
                     doTweenUIController.OpenWinPopupPanels();
                 }

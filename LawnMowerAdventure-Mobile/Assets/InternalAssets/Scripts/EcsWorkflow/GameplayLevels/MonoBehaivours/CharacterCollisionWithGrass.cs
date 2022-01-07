@@ -8,9 +8,9 @@ namespace AbyssMothGames.LawnMowerWorld
         {
             if (!collision.gameObject.CompareTag(Helper.Tag.Player)) return;
 
-            GrassHandlerSystem.OnCurrentGrassCount(-1);
+            //GrassHandlerSystem.OnCurrentGrassCount(-1);
 
-            Destroy(gameObject);
+            //Destroy(gameObject);
         }
     }
 }

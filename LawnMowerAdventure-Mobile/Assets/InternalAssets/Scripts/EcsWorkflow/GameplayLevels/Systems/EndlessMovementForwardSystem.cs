@@ -14,15 +14,14 @@ namespace AbyssMothGames.LawnMowerWorld
             {
                 ref var character = ref characterFilter.Get1(i);
 
-                if (character.characterGO == null)
+                if (character.GameObject == null)
                 {
                     Debug.Log("The player's object reference has gone off or the player has lost.");
 
                     return;
                 }
 
-                character.characterGO.
-                    transform.Translate(character.characterSpeed * Time.deltaTime * Vector3.forward);
+                character.Rigidbody.velocity = character.Transform.forward * character.MovementSpeed;
             }
         }
     }

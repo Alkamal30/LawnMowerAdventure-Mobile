@@ -18,8 +18,10 @@ namespace AbyssMothGames.LawnMowerWorld
 
             ref var character = ref characterEntity.Get<CharacterComponent>();
 
-            character.characterGO = playerGO;
-            character.characterSpeed = sceneConfiguration.characterSpeed;
+            character.GameObject = playerGO;
+            character.Transform = playerGO.transform;
+            character.Rigidbody = playerGO.GetComponent<Rigidbody>();
+            character.MovementSpeed = sceneConfiguration.characterSpeed;
         }
     }
 }

@@ -4,7 +4,9 @@ namespace AbyssMothGames.LawnMowerWorld
 {
     public struct CharacterComponent
     {
-        public GameObject characterGO;
-        public float characterSpeed;
+        public GameObject GameObject;
+        public Transform Transform;
+        public Rigidbody Rigidbody;
+        public float MovementSpeed;
     }
 }
